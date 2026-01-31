@@ -6,7 +6,7 @@
     <title>Konfirmasi Direct</title>
     <link rel="icon" href="assets/icons/x.svg" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="canonical" href="https://x.com/kuhyakuya" />
+    <link rel="canonical" href="" id="canonical-link" />
   </head>
   <body>
     <main class="page">
@@ -14,11 +14,11 @@
         <div class="card__lottie" id="loading-animation" aria-hidden="true"></div>
         <h1>Konfirmasi sebelum melanjutkan</h1>
         <p>
-          Kamu akan diarahkan ke x.com/kuhyakuya. Pastikan kamu ingin membuka tautan tersebut
-          sebelum melanjutkan.
+          Kamu akan diarahkan ke <span id="target-url-text"></span>. Pastikan kamu ingin membuka
+          tautan tersebut sebelum melanjutkan.
         </p>
         <div class="button-group">
-          <a class="button" href="https://x.com/kuhyakuya" rel="noopener noreferrer">
+          <a class="button" href="" rel="noopener noreferrer" id="target-url">
             Ya, lanjutkan
           </a>
           <a class="button button--ghost" href="https://kuhyakuya.com" rel="noopener noreferrer">
@@ -28,6 +28,7 @@
       </section>
     </main>
     <script src="https://unpkg.com/lottie-web/build/player/lottie.min.js"></script>
+    <script src="config/redirect.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
