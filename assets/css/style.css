@@ -44,39 +44,6 @@ body {
   backdrop-filter: blur(12px);
 }
 
-.card__ornament {
-  position: absolute;
-  inset: 20px;
-  pointer-events: none;
-}
-
-.card__ornament span {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  background: rgba(138, 91, 255, 0.6);
-}
-
-.card__ornament span:nth-child(1) {
-  top: 12px;
-  left: 45%;
-}
-
-.card__ornament span:nth-child(2) {
-  top: 32px;
-  left: 55%;
-  opacity: 0.5;
-}
-
-.card__ornament span:nth-child(3) {
-  top: 20px;
-  left: 60%;
-  width: 8px;
-  height: 8px;
-  opacity: 0.35;
-}
-
 .card__lottie {
   width: 72px;
   height: 72px;
